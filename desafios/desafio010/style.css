@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+.andro {
+    font-family: 'android';
+    color: green;
+    background-image: linear-gradient(to right, #3DFC93, transparent);
+    text-indent: 8px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(19, 236, 160);
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(360deg, #29753A, #00F535);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.508)
+}
+
+header > h1 {
+    font-size: 3em;
+}
+
+header > nav {
+    padding-top: 20px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+header > nav > a:hover {
+    background-color: #007510;
+}
+
+#botoes {
+    text-align: left;
+}
+
+
+
+main {
+    background-color: white;
+    margin:auto;
+    padding: 20px;
+    min-width: 280px;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main img {
+    width: 100%;
+}
+main > article > h2 {
+    font-family: 'android';
+    color: green;
+    background-color: white;
+}
+
+
+
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px;
+    color: rgb(6, 68, 6);
+    background-color: #3DFC93;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+main  p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    text-indent: 20px;
+    font-size: 1em;
+}
+
+div.video{
+    background-color: #007510;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    padding-top: 0%;
+
+    position: relative;
+}
+
+div.video> iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+aside {
+    background-color: #28f454;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.422);
+}
+
+aside > h3 {
+    background-color: #007510;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style: inside;
+    columns: 2;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+}

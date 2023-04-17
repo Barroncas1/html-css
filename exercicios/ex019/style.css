@@ -1,0 +1,38 @@
+/*
+id em html é # em css
+
+classe em html é . em css 
+*/
+
+
+
+body {
+    background-color: rgb(26, 221, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h1#principal{
+    text-align: center;
+    color: black;
+    background-color: coral;
+}
+
+h2 {
+    color:rgb(248, 148, 17)
+}
+
+.basico {
+    color: green;
+}
+
+.inter {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
